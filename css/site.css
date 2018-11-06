@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+/*
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}*/
+/*
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     width: 70%;
+     height: 100px;
+     margin: auto;
+ }
+ */
+ 
+ .carousel .item {
+  height: 500px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: wait;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff; 
+}
+
+.carousel-indicators .active {
+    width: 30px;
+    height: 30px;
+    background-color: #ff0000;
+}
